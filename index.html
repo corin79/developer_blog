@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코린이 WebSite</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/bacbb36d15.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="https://i.pinimg.com/236x/ea/f1/ce/eaf1ceb06941e971926b8926836cad20--list-of-pokemon-pokemon-chart.jpg">
+    <script src="https://kit.fontawesome.com/bacbb36d15.js" crossorigin="anonymous"></script>
+    <style>
+        header {
+            background-color: coral;
+            width: auto;
+            height: 260px;
+            text-align: right;
+            font-size: 35px;
+            color: whitesmoke;
+            border-radius: 10px;
+            margin: 40px 10px 0px 10px;
+            padding: 60px 30px 0px 0px;
+        }
+    
+        body {
+            font-family: 'Sunflower', sans-serif;
+        }
+    
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+    
+        nav {
+            background-color: white;
+            flex: 1;
+        }
+    
+        nav ul {
+            font-family: 'Alfa Slab One', cursive;
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            margin: 250px auto auto -25px;
+            font-size: 15px;
+        }
+    
+        article {
+            flex: 1;
+            margin-top: 40px;
+        }
+    
+        footer {
+            background-color: white;
+            color: whitesmoke;
+            padding-top: 20px;
+            height: 110px;
+            text-align: left;
+        }
+    
+        i {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+    
+        .icons {
+            width: 250px;
+            display: flex;
+            justify-content: space-around;
+            margin: -260px auto 0 120px;
+        }
+    
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            margin: 6px 15px 0px 0px;
+            border-radius: 5px;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1 style="font-size: 80px;font-weight: bold;">어제의 나와 비교해서 <span style="font-size: 110px;">오늘</span>은?</h1>
+            <p style="font-size: 25px;padding-right: 40px;font-family: 'Lobster', cursive;color: firebrick;">To be a good developer better than yesterday</p>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="diary.html">Diary</a></li>
+                    <li><a href="articles.html">Atricles</a></li>
+                    <li><a href="studylist.html">Study List</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <article>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://media.giphy.com/media/l0EtM3MiQH9svtG0g/giphy.gif" alt="코딩이미지" width="1200"
+                                height="500">
+                            <div class="carousel-caption"></div>
+                        </div> 
+
+                        <div class="carousel-item">
+                            <img src="/image/coding.gif" alt="코딩이미지" width="1200" height="500">
+                            <div class="carousel-caption">
+                                <h2>Job description</h2>
+                                <p><a href="/index_inner/jobdescription.html" style="color: seashell;font-weight: bold;">I can handle it ✨</a></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1542107617-e760dc92dcdd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Z29vZCUyMGpvYnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="코딩이미지" width="1200" height="500">
+                            <div class="carousel-caption">
+                                <h2>HTML, CSS, JavaScript</h2>
+                                <p><a href="/index_inner/strength.html" style="color: seashell;font-weight: bold;">I have these personalities</a>💎</p>
+                            </div>
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" style="margin-left: -50px;" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" style="margin-right: -39px;" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                </div>
+                <script>
+                    $(function () {
+                        $('#demo').carousel({ //슬라이드를 사용하기 위해서는 carousel 실행
+                            interval: 2000, //슬라이딩 자동순환 지연 시간, false면 자동순환x  
+                            pause: "hover", //hover를 설정하면 '마우스'가져가면 자동순환 멈춤
+                            wrap: true, //순환설정true=> 1->2 다시 1로 반복
+                            keyboard: true //키보드 이벤트설정이 뭐지?
+                        });//carousel
+                    });//function
+                </script>
+            </article>
+        </section>
+        <footer>
+            <div class="icons">
+                <a href="www.linkedin.com/in/job01b749175" target="blank()"><i
+                        class="fab fa-linkedin" title="링크드인" style="color: darkslategrey;"></i></a>
+                <a href="https://www.instagram.com/curiosity_peekaboo" target="blank()"><i class="fab fa-instagram" title="인스타그램"
+                        style="color: darkslategrey;"></i></a>
+                <a href="https://corin79.github.io/developer_blog/" target="blank()"><i class="fab fa-github" title="깃허브"
+                        style="color: darkslategrey;"></i></a>
+                <a href="mailto:greenblue9@naver.com"><i class="fas fa-at" title="이메일"
+                        style="color: darkslategrey;"></i></a>
+            </div>
+            <div style="line-height: 1px; margin-top: 15px;margin-left: 195px;">
+                <p style="font-size: 2px;color: darkgrey;">ⓒ2021.by Garam Gu</p>
+                <p style="font-size: 2px;color: darkgrey;">Powered by corin79</p>
+            </div>
+    
+        </footer>
+    </body>
+</html> 
