@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Yeon Sung', cursive;
+    color: black;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.signup-contents {
+    width: 310px;
+    height: 320px;
+    margin: auto;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+input {
+    width: 300px;
+    display: flex;
+    padding: 10px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-bottom: 15px;
+}
+
+button {
+    position: relative;
+    left: 215px;
+    top: 50px;
+    border: none;
+    padding: 10px;
+    background-color: #0779e4;
+    color: snow;
+}
+
+
+
+
+
+
+
