@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Yeon Sung', cursive;
+    color: black;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+    position: relative;
+    top: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 { 
+    text-align: center;
+    margin: 20px;
+}
+
+.login-contents {
+    width: 185px;
+    height: 100px;
+    position: relative;
+    left: 160px;
+    margin: 0;
+}
+
+input { 
+    display: flex;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.find-group {
+    text-align: center;
+    padding: 0;
+}
+
+.find-id, .find-pwd {
+    display: inline;
+    margin-right: 5px;
+}
+
+button {
+    position: relative;
+    left: 190px;
+    margin: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #0779e4;
+    color: snow;
+}
+
+
+
